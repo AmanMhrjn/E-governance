@@ -433,3 +433,17 @@ ol li p{
     border: 1px solid rgb(219, 219, 219);
     border-radius: 6px;
 }
+
+.licensecard{
+    padding:24px 20px;
+    background: #f8faff;
+    border-radius: 12px;
+    height: 100%;
+    align-items: center;
+}
+
+
+
+
+
+

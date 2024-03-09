@@ -1,0 +1,168 @@
+.progress-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    /* background-color: #f5f5f5; */
+    padding: 10px;
+    border-radius: 5px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  }
+  .step {
+    width: 20%;
+    text-align: center;
+  }
+  .step .circle {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+  .step.active .circle {
+    background-color: #4caf50;
+  }
+  .step .label {
+    margin-top: 5px;
+    display: block;
+    font-size: 12px;
+    color: #666;
+  }
+  .connector {
+    height: 2px;
+    flex-grow: 1;
+    background-color: #d9d9d9;
+  }
+  .connector.active {
+    background-color: #4caf50;
+  }
+
+
+  .checkbox{
+    display: flex;
+    margin-top: 28px;
+    font-size: 14px;
+  }
+
+  input[type=checkbox]{
+    margin-bottom: 20px;
+    margin-right: 8px;
+  }
+
+
+  .cat-btn{
+    display: flex;
+    margin-left: 80%;
+  }
+
+  .nextt a input{
+    padding: 6px 32px;
+    font-size: 14px;
+    background: #2460b9;
+    border: none;
+    color: #fff;
+    margin-left: 85%;
+  }
+
+  .next a input{
+    padding: 6px 32px;
+    font-size: 14px;
+    background: #2460b9;
+    border: none;
+    color: #fff;
+    
+  }
+
+  .back a input{
+    padding: 6px 32px;
+    font-size: 14px;
+    background: #b92409;
+    border: none;
+    color: #fff;
+   margin-right: 12px;
+   
+  }
+
+
+  .category-container {
+    padding: 12px;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    column-gap: 0px;
+
+  }
+  .category {
+    width: 150px; 
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+  }
+  .category input[type="radio"] {
+    display: none; /* Hide the radio input */
+  }
+  
+  .category input[type="radio"]:checked + label {
+    /* Style for when the item is selected */
+    outline: 3px solid #4caf50; /* Green outline to represent selection */
+
+  }
+  .category label {
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+  }
+  .category img {
+    width: 50px; /* Adjust as needed */
+    height: auto;
+  }
+  .category-name {
+    font-size: 14px;
+    color: #333;
+    margin-top: 8px;
+  }
+
+
+input[type=date]{
+    width: 100%;
+}
+
+.cardsection4{
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    margin-top: 14px;
+    padding: 10px;
+    position: relative;
+}
+
+.cardsection4 h3{
+    background: #f8faff;
+    font-size: .938rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding: 0 5px 5px;
+    position: absolute;
+    top: -10px;
+}
+
+.cardsection4 .cardbox4{
+    padding: 1rem;
+    
+}
+
+.cardbox4 .cardbox5{
+    margin-bottom: 0.9rem;
+    display: flex;
+}
+
+.cardbox5 .cardbox2{
+    flex: 0 0 auto;
+    width: 100%;
+}
