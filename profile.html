@@ -6,6 +6,7 @@
     <title>DOTM | Applicant Login</title>
 
     <link rel="stylesheet" href="./CSS/style.css" />
+
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <script
       src="https://kit.fontawesome.com/7d37335a3d.js"
@@ -79,16 +80,16 @@
 
                   <div class="cardbox1">
                     <div class="cardbox2">
-                      <label class="form-label" for="firstname">First Name (English)</label>
+                      <label class="form-label" for="firstname">नाम (देवनागरीमा)</label>
                       <div class="cardlabel1">
-                        <input type="text" name="firstname" id="firstnme" placeholder="First Name">
+                        <input type="text" name="firstname" id="firstnme" placeholder="नाम">
                           
                       </div>
                     </div>
                     <div class="cardbox2">
-                      <label class="form-label" for="firstname">Middle  Name (English)</label>
+                      <label class="form-label" for="firstname">बीचको नाम (देवनागरीमा)</label>
                         <div class="cardlabel1">
-                          <input type="text" name="firstname" id="firstnme" placeholder="Middle Name">
+                          <input type="text" name="firstname" id="firstnme" placeholder="बीचको नाम">
                             
                         </div>
                     </div>
@@ -96,9 +97,9 @@
 
                   <div class="cardbox1">
                     <div class="cardbox2">
-                      <label class="form-label" for="firstname">First Name (English)</label>
+                      <label class="form-label" for="firstname">थर (देवनागरीमा)</label>
                       <div class="cardlabel1">
-                        <input type="text" name="firstname" id="firstnme" placeholder="First Name">
+                        <input type="text" name="firstname" id="firstnme" placeholder="थर">
                           
                       </div>
                     </div>
@@ -107,36 +108,62 @@
               </div>
 
               <div class="cardsection">
-                <h3>Personal Details (आवेदकको नाम)</h3>
+                <h3>Personal Details (व्यक्तिगत विवरणहरू)</h3>
                 <div class="cardbox">
                   <div class="cardbox1">
                     <div class="cardbox2">
-                      <label class="form-label" for="firstname">First Name (English)</label>
+                      <label class="form-label" for="firstname">Date of Birth (जन्म मिति)</label>
                       <div class="cardlabel1">
-                        <input type="text" name="firstname" id="firstnme" placeholder="First Name">
+                        <input type="text" name="firstname" id="firstnme" placeholder="dd/mm/yyyy">
                       </div>
                     </div>
 
                     <div class="cardbox2">
-                      <label class="form-label" for="firstname">Middle  Name (English)</label>
-                        <div class="cardlabel1">
-                          <input type="text" name="firstname" id="firstnme" placeholder="Middle Name"> 
-                        </div>
+                      <label class="form-label" for="firstname">Gender (English)</label>
+                      <div class="cardlabel1">
+                        <select id="dataoptions" required="">
+                            <option value="">Select Your Gender </option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                           
+                        </select>
+                      </div>
                     </div>
                   </div>
 
                   <div class="cardbox1">
                     <div class="cardbox2">
-                      <label class="form-label" for="firstname">First Name (English)</label>
+                      <label class="form-label" for="firstname">Blood Group (रक्त समूह)</label>
                       <div class="cardlabel1">
-                        <input type="text" name="firstname" id="firstnme" placeholder="First Name">
+                        <select id="dataoptions" required="">
+                          <option value="">Select Your Blood Group </option>
+                          <option value="a+">A+</option>
+                          <option value="b+">B+</option>
+                          <option value="ab+">AB+</option>    
+                          <option value="o+">O+</option>    
+                          <option value="a-">A-</option>    
+                          <option value="b-">B-</option>    
+                          <option value="ab-">AB-</option>     
+                          <option value="o-">O-</option>     
+                         
+                      </select>
                           
                       </div>
                     </div>
                     <div class="cardbox2">
-                      <label class="form-label" for="firstname">Middle  Name (English)</label>
+                      <label class="form-label" for="firstname">Nearby Office (नजिकैको कार्यालय)</label>
                         <div class="cardlabel1">
-                          <input type="text" name="firstname" id="firstnme" placeholder="Middle Name">
+                          <select id="dataoptions" required="">
+                            <option value="">Select Nearby Office </option>
+                            <option value="thulobharyang">Transport Management Office,Thulobharyang</option>
+                            <option value="baglung">Transport Management Office,Baglung</option>
+                            <option value="lalitpur">Transport Management Office,Lalitpur</option>
+                            <option value="ithari">Transport Management Office,Ithari</option>
+                            <option value="kaski">Transport Management Office,Kaski</option>
+                               
+                           
+                        </select>
                             
                         </div>
                     </div>
@@ -145,20 +172,26 @@
               </div>
 
               <div class="cardsection">
-                <h3>Guardian Information (आवेदकको नाम)</h3>
+                <h3>Guardian Information (अभिभावक जानकारी)</h3>
                 <div class="cardbox">
                   <div class="cardbox1">
                     <div class="cardbox2">
-                      <label class="form-label" for="firstname">First Name (English)</label>
+                      <label class="form-label" for="firstname">Name (नाम)</label>
                       <div class="cardlabel1">
-                        <input type="text" name="firstname" id="firstnme" placeholder="First Name">
+                        <input type="text" name="firstname" id="firstnme" placeholder="Gurdian Name">
                       </div>
                     </div>
 
                     <div class="cardbox2">
-                      <label class="form-label" for="firstname">Middle  Name (English)</label>
+                      <label class="form-label" for="firstname">Relationship (सम्बन्ध)</label>
                         <div class="cardlabel1">
-                          <input type="text" name="firstname" id="firstnme" placeholder="Middle Name"> 
+                          <select id="dataoptions" required="">
+                            <option value="">Select relationship with Guardian </option>
+                            <option value="father">Father</option>
+                            <option value="mother">Mother</option>
+                            <option value="husband">Husband</option>
+                            
+                        </select>
                         </div>
                     </div>
                   </div>
@@ -166,36 +199,74 @@
               </div>
 
               <div class="cardsection">
-                <h3>Other Inforamation (आवेदकको नाम)</h3>
+                <h3>Other Inforamation (अन्य जानकारी)</h3>
                 <div class="cardbox">
                   <div class="cardbox1">
                     <div class="cardbox2">
-                      <label class="form-label" for="firstname">First Name (English)</label>
+                      <label class="form-label" for="firstname">Education (शिक्षा)</label>
                       <div class="cardlabel1">
-                        <input type="text" name="firstname" id="firstnme" placeholder="First Name">
+                        <select id="dataoptions" required="">
+                            <option value="">Select your latest educational degree </option>
+                            <option value="">None</option>
+                            <option value="">Basic</option>
+                            <option value="">Primary Level</option>
+                            <option value="">Secondary Level</option>
+                            <option value="">High School Level</option>
+                            <option value="">Undergraduate</option>
+                            <option value="">Doctorate</option>
+                            <option value="">Other</option>
+                            
+                            
+                        </select>
                       </div>
                     </div>
 
                     <div class="cardbox2">
-                      <label class="form-label" for="firstname">Middle  Name (English)</label>
+                      <label class="form-label" for="firstname">Occupation (पेशा)</label>
                         <div class="cardlabel1">
-                          <input type="text" name="firstname" id="firstnme" placeholder="Middle Name"> 
+                          <select id="dataoptions" required="">
+                            <option value="">Select your current occupation </option>
+                            <option value="">Advocate</option>
+                            <option value="">Businessperson</option>
+                            <option value="">Civil Service</option>
+                            <option value="">Doctor</option>
+                            <option value="">Engineer</option>
+                            <option value="">Professor</option>
+                            <option value="">Teacher</option>
+                            <option value="">Other</option>
+                        </select>
                         </div>
                     </div>
                   </div>
 
                   <div class="cardbox1">
                     <div class="cardbox2">
-                      <label class="form-label" for="firstname">First Name (English)</label>
+                      <label class="form-label" for="firstname">Computer Knowledge (कम्प्युटर ज्ञान)</label>
                       <div class="cardlabel1">
-                        <input type="text" name="firstname" id="firstnme" placeholder="First Name">
+                        <select id="dataoptions" required="">
+                          <option value="">Select your computer knowledge </option>
+                          <option value="">None</option>
+                          <option value="">Basic</option>
+                          <option value="">Intermmediate</option>
+                          <option value="">Expert</option>
+                      </select>
                           
                       </div>
                     </div>
                     <div class="cardbox2">
-                      <label class="form-label" for="firstname">Middle  Name (English)</label>
+                      <label class="form-label" for="firstname">Country (देश)</label>
                         <div class="cardlabel1">
-                          <input type="text" name="firstname" id="firstnme" placeholder="Middle Name">
+                          <select id="dataoptions" required="">
+                            <option value="">Select your citizenship Country </option>
+                            <option value="">Afghanistan</option>
+                            <option value="">Australia</option>
+                            <option value="">Bangladesh</option>
+                            <option value="">Brazil</option>
+                            <option value="">China</option>
+                            <option value="">Nepal</option>
+                            <option value="">Oman</option>
+                            
+                        </select>
                             
                         </div>
                     </div>
@@ -203,9 +274,14 @@
 
                   <div class="cardbox1">
                     <div class="cardbox2">
-                      <label class="form-label" for="firstname">First Name (English)</label>
+                      <label class="form-label" for="firstname">Have a driving license? (तिमीसँग चलक अनुमती पत्र छ?)</label>
                       <div class="cardlabel1">
-                        <input type="text" name="firstname" id="firstnme" placeholder="First Name">
+                        <select id="dataoptions" required="">
+                          
+                          <option value="">No</option>
+                          <option value="">Yes</option>
+                          
+                      </select>
                           
                       </div>
                     </div>

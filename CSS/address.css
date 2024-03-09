@@ -1,11 +1,11 @@
 #dataoptions{
-    padding: 8px;
+    padding: 10px;
     width: 90%;
     outline-color: #2460b9;
     margin-top: 15px;
     margin-right: 8px;  
     border: 1px solid rgb(219, 219, 219);
-    
+    border-radius: 6px;
 }
 
 .sameaspermanent{
