@@ -1,0 +1,23 @@
+#dataoptions{
+    padding: 8px;
+    width: 90%;
+    outline-color: #2460b9;
+    margin-top: 15px;
+    margin-right: 8px;  
+    border: 1px solid rgb(219, 219, 219);
+    
+}
+
+.sameaspermanent{
+    padding: 6px;
+    background: #2460b9;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    font-size: .700rem;
+    position: absolute;
+    top: -10px;
+    margin-left: 85%;
+    cursor: pointer;
+}

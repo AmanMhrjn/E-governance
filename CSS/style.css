@@ -1,0 +1,425 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    width: 100%;
+    min-width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+header .logo{
+    margin-right: 20px;
+}
+
+header .headertext{
+    line-height: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    padding: 20px 10%;
+    /* border: 1px solid black; */
+    background: #2460b9;
+}
+
+nav .navlist{
+    display: flex;
+    align-items: center;
+}
+
+nav .navlist li a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 800;
+    margin: 0 20px;
+    transition: all .45s ease;
+}
+
+nav .navlist li a:hover{
+    color: rgb(222, 137, 0);
+}
+
+/* nav .navlist .active{
+    color: #e18104;
+    font-weight: 900;
+} */
+
+/* Login page */
+.home{
+    display: flex;
+    padding: 20px 10%;
+    /* border: 2px solid black; */
+}
+
+.home .box{
+    /* border: 1px solid black; */
+    width: 50%;
+    padding: 6px;
+    margin-right: 20px;
+}
+
+.home .box2{
+    width: 50%;
+    padding: 20px;
+    background: #f1f5ff;
+    height: 500px;
+    overflow: hidden;
+    
+}
+
+
+.box2 .scrolldata{
+    margin-top: 12px;
+    /* overflow-y: scroll; */
+    width:550px;
+    height:550px; 
+    line-height:1.8em;
+    overflow:scroll;
+    padding:5px;
+    
+}
+
+.logincontainer .input-field{
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(174, 174, 174);
+}
+
+.box .btn1{
+    padding: 12px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    background-color: #2460b9;
+    outline: none;
+    margin-top: 10px;
+    border: none;
+    
+    border-radius: 6px;
+}
+
+.box .btn1 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+form .links{
+    display: flex;
+    width: 100%;
+    margin-top: 12px;
+    /* border: 1px solid black; */
+}
+
+.links .forgetpsw{
+    margin-left: 45%;
+}
+
+.links .forgetusername{
+    margin-left: 25%;
+}
+
+/* Signup */
+
+
+.group{
+    display: flex;
+}
+
+.input-field{
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+    outline: none;
+    margin-top: 12px;
+    border: none;
+    border-bottom: 1px solid rgb(174, 174, 174);
+}
+
+#gap{
+    margin-right: 10px;
+}
+
+.signupcontainer{
+    margin-top: 15px;
+}
+
+form p{
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 6px;
+    color: #2460b9;
+    font-style: italic;
+}
+
+#questions{
+    padding: 6px;
+    width: 100%;
+    outline-color: #2460b9;
+    margin-top: 15px;
+    margin-right: 8px;  
+}
+
+.singlegroup{
+    margin-top: 8px;
+    border: none;
+}
+
+.btn{
+    padding: 12px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    background-color: #2460b9;
+    outline: none;
+    margin-top: 10px;
+    border: none;
+    
+    border-radius: 6px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* home page */
+.header{
+    position: relative;
+    width: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 20px 11%;
+}
+
+.maincontainer{
+    padding: 20px 11%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.maincontainer .alert{
+    padding: 20px;
+    background: #a3e0b2;
+    display: flex;
+    font-size: 14px;
+    border-radius: 8px;
+    /* border: 1px solid black; */
+}
+
+.maincontainer .alert .alertbtn{
+    padding: 4px;
+    width: 100px;
+    position: relative;
+    margin-left: 270px;
+    background: #2460b9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.maincontainer .container{
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+
+.maincontainer .gridcontainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 20px 40px;
+    margin-top: 10px;
+}
+
+.maincontainer .gridcontainer .card{
+    width: 200px;
+    height: 180px;
+    /* border: 1px solid black; */
+    /* font-size: 14px; */
+    border-radius: 4px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 10%;
+    cursor: pointer;
+    position: relative;
+    flex-direction: column;
+    background: #f1f5ff;
+}
+
+.gridcontainer .card:hover{
+    background: #ecf1fb;
+    
+}
+
+.gridcontainer a{
+    text-decoration: none;
+    color: black;
+}
+
+/* .cardicon{
+
+} */
+
+.cardtitle{
+    font-size: 12px;
+}
+
+.footer{
+    /* border: 1px solid blackl; */
+    padding: 12px;
+    text-align: center;
+    background: red;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.maincontainer .alert .alertbtn:hover{
+    background: c#1e4a8d;
+}
+
+.profilecontainer{
+    border: 1px solid black;
+    padding: 30px 11%;
+    width: 100%;
+}
+
+.profilecontainer .profileheader{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+form{
+    display: block;
+    margin-top: 0em;
+}
+
+.profilecontainer .card{
+    /* border: 1px solid #dbdbdb; */
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 10px;
+    position: relative;
+}
+
+.card .cardbody{
+    padding:24px 20px;
+    background: #f8faff;
+    border-radius: 12px;
+    height: 100%;
+}
+
+.card .cardsection{
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    margin-top: 14px;
+    padding: 10px;
+    position: relative;
+}
+
+.cardsection h3{
+    background: #f8faff;
+    font-size: .938rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding: 0 5px 5px;
+    position: absolute;
+    top: -10px;
+}
+
+.cardsection .cardbox{
+    padding: 1rem;
+    
+}
+
+.cardbox .cardbox1{
+    margin-bottom: 0.9rem;
+    display: flex;
+}
+
+.cardbox1 .cardbox2{
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.form-label{
+    color: #0d0d0d;
+    margin-bottom: 4px;
+}
+
+.required{
+    color: #d01e29;
+    font-size: 18px;
+    line-height: 1;
+    position: absolute;
+    right: 8px;
+    top: 60%;
+}
+
+.cardbox2 input{
+    padding: 12px;
+    width: 90%;
+    margin-top: 6px;
+    /* margin-right: 50px; */
+    border-radius: 6px;
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.lastbutton{
+   float: right;
+    /* border: 2px solid black; */
+    width: 150px;
+}
+
+.lastbutton .btn4{
+    padding: 12px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    background-color: #2460b9;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+ol li p{
+    font-size: 16px;
+}

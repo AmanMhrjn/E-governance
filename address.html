@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOTM | Applicant Login</title>
+
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="/CSS/address.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script
+      src="https://kit.fontawesome.com/7d37335a3d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./JavaScript/script.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <a href="index.html" class="logo"
+        ><img src="./Images/logo.png" width="80px" height="80px"/></a>
+      <div class="headertext">
+        <h5>Government of Nepal</h5>
+        <h5 style="color: rgb(71, 94, 176)">
+          Ministry of Physical Infrastructure and Transport
+        </h5>
+        <h5>Department of Transport Management</h5>
+        <h5 style="color: rgb(152, 46, 46)">Online Driving License System</h5>
+      </div>
+      <div>
+        <img src="./Images/flag.png" width="80px" height="80px">
+      </div>
+    </div>
+    <nav>
+      <ul class="navlist">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="#">How to use</a></li>
+      </ul>
+      <ul>
+        <li></li>
+      </ul>
+    </nav>
+    <div class="profilecontainer">
+        <div class="profileheader">
+          <h4>Address (ठेगाना)</h4>
+          <h6><a href="home.html"><u>Application portal</u></a> > Address</h6>
+        </div>
+        <form>
+          <div class="card">
+            <div class="cardbody">
+              <div class="cardsection">
+                  <h3>Permanent Address (स्थाई ठेगाना)</h3>
+                  
+
+                <div class="cardbox">
+                  <div class="cardbox1">
+                    <div class="cardbox2">
+                      <label class="form-label" for="firstname">Province (प्रदेश)</label>
+                      <div class="cardlabel1">
+                        <Select name="data" id="dataoptions" required="">
+                            <option value="">Select appropriate provience</option>
+                            <option value="1">Koshi (कोशी)</option>
+                            <option value="2">Madesh (मधेस)</option>
+                            <option value="3">Bagmati (बाग्मती)</option>
+                            <option value="4">Gandaki (गण्डकी)</option>
+                            <option value="5">Lumbini (लुम्बिनी)</option>
+                            <option value="6">Karnali (कर्णाली)</option>
+                            <option value="7">Sudhurpaschim (सुदुर पश्चिम)</option>                            
+                        </Select>
+                      </div>
+                    </div>
+
+                    <div class="cardbox2">
+                      <label class="form-label" for="firstname">District (जिल्ला)</label>
+                        <div class="cardlabel1">
+                            <select class="select" id="dataoptions" required="">
+                                <option value=""> Select appropriate district </option>
+                                <option value="11">Bhojpur (भोजपुर)</option>
+                                <option value="18">Dhankuta (धनकुटा)</option>
+                                <option value="26">Ilam (इलाम)</option>
+                                <option value="28">Jhapa (झापा)</option>
+                                <option value="37">Khotang (खोटाङ)</option>
+                                <option value="43">Morang (मोरङ्ग)</option>
+                                <option value="51">Okhaldhunga (ओखलढुङ्गा)</option>
+                                <option value="53">Panchthar (पाँचथर)</option>
+                                <option value="66">Sankhuwasabha (संखुवासभा)</option>
+                                <option value="72">Solukhumbu (सोलुखुम्वु)</option>
+                                <option value="73">Sunsari (सुनसरी)</option>
+                                <option value="77">Taplejung (ताप्लेजुङ)</option>
+                                <option value="78">Tehrathum (तेह्रथुम)</option>
+                                <option value="79">Udayapur (उदयपुर)</option>
+                            </select>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="cardbox1">
+                    <div class="cardbox2">
+                      <label class="form-label" for="firstname">(Rural) Municipality (नगर/गाँउ पालिका)</label>
+                      <div class="cardlabel1">
+                        <select id="dataoptions" required="">
+                            <option value=""> Select appropriate local body </option>
+                            <option value="4469">Besishahar</option>
+                            <option value="4470">Dordi</option>
+                            <option value="4471">Dudhpokhari</option>
+                            <option value="4472">Kwholasothar</option>
+                            <option value="44600">Kathmandu</option>
+                            <option value="4473">Madhyanepal</option>
+                            <option value="4474">Marsyangdi</option>
+                            <option value="4475">Rainas</option>
+                            <option value="4476">Sundarbazar</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="cardbox2">
+                      <label class="form-label" for="ward">Ward No. ( वडा नं )</label>
+                        <div class="cardlabel1">
+                          <input type="number" name="ward" id="ward" placeholder="Ward Number">
+                            
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="cardbox1">
+                    <div class="cardbox2">
+                      <label class="form-label" for="city">City ( सहर/गाँउ )</label>
+                      <div class="cardlabel1">
+                        <input type="text" name="city" id="city" placeholder="City">
+                          
+                      </div>
+                    </div>
+                    <div class="cardbox2">
+                      <label class="form-label" for="tole">Tole ( टोल )</label>
+                        <div class="cardlabel1">
+                          <input type="text" name="firstname" id="firstnme" placeholder="Tole">
+                            
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cardsection">
+                <h3>Permanent Address (स्थाई ठेगाना)</h3>
+                <input type="button" class="sameaspermanent" value="Same as permanent">
+                <div class="cardbox">
+                  <div class="cardbox1">
+                    <div class="cardbox2">
+                      <label class="form-label" for="firstname">Province (प्रदेश)</label>
+                      <div class="cardlabel1">
+                        <Select name="data" id="dataoptions" required="">
+                            <option value="">Select appropriate provience</option>
+                            <option value="1">Koshi (कोशी)</option>
+                            <option value="2">Madesh (मधेस)</option>
+                            <option value="3">Bagmati (बाग्मती)</option>
+                            <option value="4">Gandaki (गण्डकी)</option>
+                            <option value="5">Lumbini (लुम्बिनी)</option>
+                            <option value="6">Karnali (कर्णाली)</option>
+                            <option value="7">Sudhurpaschim (सुदुर पश्चिम)</option>                            
+                        </Select>
+                      </div>
+                    </div>
+
+                    <div class="cardbox2">
+                      <label class="form-label" for="firstname">District (जिल्ला)</label>
+                        <div class="cardlabel1">
+                            <select class="select" id="dataoptions" required="">
+                                <option value=""> Select appropriate district </option>
+                                <option value="11">Bhojpur (भोजपुर)</option>
+                                <option value="18">Dhankuta (धनकुटा)</option>
+                                <option value="26">Ilam (इलाम)</option>
+                                <option value="28">Jhapa (झापा)</option>
+                                <option value="36">Kathmandu (  )</option>
+                                <option value="37">Khotang (खोटाङ)</option>
+                                <option value="43">Morang (मोरङ्ग)</option>
+                                <option value="51">Okhaldhunga (ओखलढुङ्गा)</option>
+                                <option value="53">Panchthar (पाँचथर)</option>
+                                <option value="66">Sankhuwasabha (संखुवासभा)</option>
+                                <option value="72">Solukhumbu (सोलुखुम्वु)</option>
+                                <option value="73">Sunsari (सुनसरी)</option>
+                                <option value="77">Taplejung (ताप्लेजुङ)</option>
+                                <option value="78">Tehrathum (तेह्रथुम)</option>
+                                <option value="79">Udayapur (उदयपुर)</option>
+                            </select>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="cardbox1">
+                    <div class="cardbox2">
+                      <label class="form-label" for="firstname">(Rural) Municipality (नगर/गाँउ पालिका)</label>
+                      <div class="cardlabel1">
+                        <select id="dataoptions" required="">
+                            <option value=""> Select appropriate local body </option>
+                            <option value="4469">Besishahar</option>
+                            <option value="4470">Dordi</option>
+                            <option value="4471">Dudhpokhari</option>
+                            <option value="4472">Kwholasothar</option>
+                            <option value="44600">Kathmandu</option>
+                            <option value="4473">Madhyanepal</option>
+                            <option value="4474">Marsyangdi</option>
+                            <option value="4475">Rainas</option>
+                            <option value="4476">Sundarbazar</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="cardbox2">
+                      <label class="form-label" for="ward">Ward No. ( वडा नं )</label>
+                        <div class="cardlabel1">
+                          <input type="number" name="ward" id="ward" placeholder="Ward Number">
+                            
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="cardbox1">
+                    <div class="cardbox2">
+                      <label class="form-label" for="city">City ( सहर/गाँउ )</label>
+                      <div class="cardlabel1">
+                        <input type="text" name="city" id="city" placeholder="City">
+                          
+                      </div>
+                    </div>
+                    <div class="cardbox2">
+                      <label class="form-label" for="tole">Tole ( टोल )</label>
+                        <div class="cardlabel1">
+                          <input type="text" name="firstname" id="firstnme" placeholder="Tole">
+                            
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="lastbutton">
+                <input type="button" class="btn4" value="Submit">
+              </div>
+              
+            </div>
+          </div>
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>© Department of Transport Management. All Right Reserved.</p>
+    </div>
+
+    <script type="text/javascript" src="./JS/main.js"></script>
+  </body>
+</html>

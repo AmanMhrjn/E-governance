@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOTM | Applicant Login</title>
+
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="/CSS/address.css">
+    <link rel="stylesheet" href="/CSS/citizenship.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script
+      src="https://kit.fontawesome.com/7d37335a3d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./JavaScript/script.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <a href="index.html" class="logo"
+        ><img src="./Images/logo.png" width="80px" height="80px"/></a>
+      <div class="headertext">
+        <h5>Government of Nepal</h5>
+        <h5 style="color: rgb(71, 94, 176)">
+          Ministry of Physical Infrastructure and Transport
+        </h5>
+        <h5>Department of Transport Management</h5>
+        <h5 style="color: rgb(152, 46, 46)">Online Driving License System</h5>
+      </div>
+      <div>
+        <img src="./Images/flag.png" width="80px" height="80px">
+      </div>
+    </div>
+    <nav>
+      <ul class="navlist">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="#">How to use</a></li>
+      </ul>
+      <ul>
+        <li></li>
+      </ul>
+    </nav>
+    <div class="profilecontainer">
+        <div class="profileheader">
+          <h4>Citizenship (नागरिकता आधारभूत जानकारी)</h4>
+          <h6><a href="home.html"><u>Application portal</u></a> > Citizenship</h6>
+        </div>
+        <form>
+          <div class="card">
+            <div class="cardbody">
+              <div class="cardsection">
+                  <h3>Basic Information (आधारभूत जानकारी)</h3>
+                  
+
+                <div class="cardbox">
+                  <div class="cardbox1">
+                    <div class="cardbox2">
+                      <label class="form-label" for="firstname">Citizenship Number (नागरिकता नं)</label>
+                      <div class="cardlabel1">
+                        <input type="text" name="city" id="city" placeholder="Citizenship Number">
+                      </div>
+                    </div>
+
+                    <div class="cardbox2">
+                      <label class="form-label" for="firstname">Citizenship Type (नागरिकताको किसिम)</label>
+                        <div class="cardlabel1">
+                            <select class="form-select form-select-lg" id="dataoptions" required="">
+                                <option value=""> Select your citizenship type </option>
+                                <option value="1">Descendants (वंशज)</option>
+                                <option value="2">Birth (जन्म)</option>
+                                <option value="3">Adapted (अंगिकृत)</option>
+                                <option value="4">Complimentary (मानार्थ)</option>
+                            </select>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="cardbox1">
+                    <div class="cardbox2">
+                      <label class="form-label" for="firstname">Issue District (जारि जिल्ला)</label>
+                      <div class="cardlabel1">
+                        <select class="form-select form-select-lg" id="dataoptions" required="">
+                            <option value=""> Select citizenship issued district </option>
+                            <option value="1">Achham (अछाम)</option>
+                            <option value="2">Arghakhanchi (अर्घाखाँची)</option>
+                            <option value="3">Baglung (बागलुङ)</option>
+                            <option value="4">Baitadi (वैतडी)</option>
+                            <option value="5">Bajhang (बझाङ्ग)</option>
+                            <option value="6">Bajura (बाजुरा)</option>
+                            <option value="7">Banke (बाँके)</option>
+                            <option value="8">Bara (बारा)</option>
+                            <option value="9">Bardiya (बर्दिया)</option>
+                            <option value="10">Bhaktapur (भक्तपुर)</option>
+                            <option value="11">Bhojpur (भोजपुर)</option>
+                            <option value="12">Chitwan (चितवन)</option>
+                            <option value="13">Dadeldhura (डडेल्धुरा)</option>
+                            <option value="14">Dailekh (दैलेख)</option>
+                            <option value="15">Dang (दाङ)</option>
+                            <option value="16">Darchula (दार्चुला)</option>
+                            <option value="17">Dhading (धादिङ्)</option>
+                            <option value="18">Dhankuta (धनकुटा)</option>
+                            <option value="19">Dhanusha (धनुषा)</option>
+                            <option value="20">Dolakha (दोलखा)</option>
+                            <option value="21">Dolpa (डोल्पा)</option>
+                            <option value="22">Doti (डोटी)</option>
+                            <option value="23">Gorkha (गोरखा)</option>
+                            <option value="24">Gulmi (गुल्मी)</option>
+                            <option value="25">Humla (हुम्ला)</option>
+                            <option value="26">Ilam (इलाम)</option>
+                            <option value="27">Jajarkot (जाजरकोट)</option>
+                            <option value="28">Jhapa (झापा)</option>
+                            <option value="29">Jumla (जुम्ला)</option>
+                            <option value="30">Kailali (कैलाली)</option>
+                            <option value="31">Kalikot (कालिकोट)</option>
+                            <option value="32">Kanchanpur (कञ्चनपुर)</option>
+                            <option value="33">Kapilvastu (कपिलवस्तु)</option>
+                            <option value="34">Kaski (कास्की)</option>
+                            <option value="35">Kathmandu (काठमाडौँ)</option>
+                            <option value="36">Kavrepalanchok (काभ्रेपलाञ्चोक)</option>
+                            <option value="37">Khotang (खोटाङ)</option>
+                            <option value="38">Lalitpur (ललितपुर)</option>
+                            <option value="39">Lamjung (लमजुङ)</option>
+                            <option value="40">Mahottari (महोत्तरी)</option>
+                            <option value="41">Makawanpur (मकवानपुर)</option>
+                            <option value="42">Manang (मनाङ्)</option>
+                            <option value="43">Morang (मोरङ्ग)</option>
+                            <option value="44">Mugu (मुगु)</option>
+                            <option value="45">Mustang (मुस्ताङ्)</option>
+                            <option value="46">Myagdi (म्याग्दी)</option>
+                            <option value="47">Nawalparasi (नवलपरासी)</option>
+                            <option value="48">Nawalparasi - East of Bardaghat Susta (नवलपरासी - बर्दघाट सुस्ता पूर्व)</option>
+                            <option value="49">Nawalparasi - West of Bardaghat Susta (नवलपरासी - बर्दघाट सुस्ता पश्चिम)</option>
+                            <option value="50">Nuwakot (नुवाकोट)</option>
+                            <option value="51">Okhaldhunga (ओखलढुङ्गा)</option>
+                            <option value="52">Palpa (पाल्पा)</option>
+                            <option value="53">Panchthar (पाँचथर)</option>
+                            <option value="54">Parbat (पर्वत)</option>
+                            <option value="55">Parsa (पर्सा)</option>
+                            <option value="56">Pyuthan (प्युठान)</option>
+                            <option value="57">Ramechhap (रामेछाप)</option>
+                            <option value="58">Rasuwa (रसुवा)</option>
+                            <option value="59">Rautahat (रौतहट)</option>
+                            <option value="60">Rolpa (रोल्पा)</option>
+                            <option value="61">Rukum (रुकुम)</option>
+                            <option value="62">Rukum - East Part (रुकुम - पूर्वी भाग)</option>
+                            <option value="63">Rukum - West Part (रुकुम - पश्चिम भाग)</option>
+                            <option value="64">Rupandehi (रुपन्देही)</option>
+                            <option value="65">Salyan (सल्यान)</option>
+                            <option value="66">Sankhuwasabha (संखुवासभा)</option>
+                            <option value="67">Saptari (सप्तरी)</option>
+                            <option value="68">Sarlahi (सर्लाही)</option>
+                            <option value="69">Sindhuli (सिन्धुली)</option>
+                            <option value="70">Sindhupalchok (सिन्धुपाल्चोक)</option>
+                            <option value="71">Siraha (सिरहा)</option>
+                            <option value="72">Solukhumbu (सोलुखुम्वु)</option>
+                            <option value="73">Sunsari (सुनसरी)</option>
+                            <option value="74">Surkhet (सुर्खेत)</option>
+                            <option value="75">Syangja (स्याङ्जा)</option>
+                            <option value="76">Tanahun (तनहुँ)</option>
+                            <option value="77">Taplejung (ताप्लेजुङ)</option>
+                            <option value="78">Tehrathum (तेह्रथुम)</option>
+                            <option value="79">Udayapur (उदयपुर)</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="cardbox2">
+                        <label class="form-label" for="firstname">Issue Date (जारि मिति)</label>
+                        <div class="cardlabel1">
+                          <input type="date" id="issueddate" >
+                        </div>
+                      </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="cardsection">
+                <h3>Citizenship Images (नागरिकताको फोटोहरू)</h3>
+                <div class="cardbox">
+                  <div class="cardbox1">
+                    <div class="cardbox2">
+                      <label class="form-label" for="firstname">Front Face (अगाडिको प्रति)</label>
+                      <div class="cardlabel1">
+                        <input type="file" id="myFile" name="filename">
+                      </div>
+                    </div>
+
+                    <div class="cardbox2">
+                      <label class="form-label" for="firstname">Back Face (पछाडिको प्रति)</label>
+                        <div class="cardlabel1">
+                            <input type="file" id="myFile" name="filename">
+                        </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="lastbutton">
+                <input type="button" class="btn4" value="Submit">
+              </div>
+              
+            </div>
+          </div>
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>© Department of Transport Management. All Right Reserved.</p>
+    </div>
+
+    <script type="text/javascript" src="./JS/main.js"></script>
+  </body>
+</html>

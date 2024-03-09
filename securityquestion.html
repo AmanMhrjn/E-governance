@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOTM | Applicant Login</title>
+
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="/CSS/address.css">
+    <link rel="stylesheet" href="/CSS/citizenship.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script
+      src="https://kit.fontawesome.com/7d37335a3d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./JavaScript/script.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <a href="index.html" class="logo"
+        ><img src="./Images/logo.png" width="80px" height="80px"/></a>
+      <div class="headertext">
+        <h5>Government of Nepal</h5>
+        <h5 style="color: rgb(71, 94, 176)">
+          Ministry of Physical Infrastructure and Transport
+        </h5>
+        <h5>Department of Transport Management</h5>
+        <h5 style="color: rgb(152, 46, 46)">Online Driving License System</h5>
+      </div>
+      <div>
+        <img src="./Images/flag.png" width="80px" height="80px">
+      </div>
+    </div>
+    <nav>
+      <ul class="navlist">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="#">How to use</a></li>
+      </ul>
+      <ul>
+        <li></li>
+      </ul>
+    </nav>
+    <div class="profilecontainer">
+        <div class="profileheader">
+          <h4>Change Security Question (सुरक्षा प्रश्न परिवर्तन)</h4>
+          <h6><a href="home.html"><u>Application portal</u></a> > Change Password</h6>
+        </div>
+        <form>
+          <div class="card">
+            <div class="cardbody">
+              <div class="cardsection">
+                  <!-- <h3>Change Security Question (सुरक्षा प्रश्न परिवर्तन)</h3> -->
+                  
+
+                <div class="cardbox">
+                  <div class="cardbox1">
+                    <div class="cardbox2">
+                      <label class="form-label" for="firstname">Security Question (सुरक्षा प्रश्न )</label>
+                      <div class="cardlabel1">
+                        <Select name="questions" id="dataoptions">
+                            <option value="">Change Security Questions</option>
+                            <option value="school">What is the name of your first school?</option>
+                            <option value="tired">what will you do when you are tired?</option>
+                            <option value="hero">Who was your childhood hero?</option>
+                            <option value="town">What is the name of the town where you were born?</option>
+                            <option value="id">What's your employee ID number?</option>
+                            <option value="color">What is your favourite color?</option>
+                            <option value="pet">what is the name of your favourite pet?</option>
+                            <option value="subject">What is your favourite subject in high school?</option>
+                            
+                          </Select>
+                      </div>
+                    </div>
+                    <div class="cardbox2">
+                        <label class="form-label" for="firstname">Answer (सुरक्षा प्रश्नको उत्तर )</label>
+                        <div class="cardlabel1">
+                          <input type="text" name="confirmpsw" id="confirmpsw" placeholder="Answer">
+                        </div>
+                      </div>
+                  </div>
+
+                </div>
+              </div>
+
+              
+
+              <div class="lastbutton">
+                <input type="button" class="btn4" value="Submit">
+              </div>
+              
+            </div>
+          </div>
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>© Department of Transport Management. All Right Reserved.</p>
+    </div>
+
+    <script type="text/javascript" src="./JS/main.js"></script>
+  </body>
+</html>

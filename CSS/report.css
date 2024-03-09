@@ -1,0 +1,12 @@
+.reporttext{
+    padding: 12px;
+    width: 100%;
+    margin-top: 6px;
+    /* margin-right: 50px; */
+    border-radius: 6px;
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.cardbox4{
+    margin-bottom: 12px;
+}
